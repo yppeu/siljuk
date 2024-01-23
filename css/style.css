@@ -243,3 +243,40 @@ form > .txt{
 .info > ul > li:first-child > span::after{
     display: none;
 }
+
+
+/* etcWrap */
+.etcWrap{
+    position: relative;
+    width: 1100px;
+    margin: 50px auto;
+}
+.etcContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #dddddd;
+}
+.etcBox{
+    width: 25%;
+    padding: 50px 0 30px 0;
+    color: #333333;
+    text-align: center;
+}
+.etcBox > .box > .tit01{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.etcBox > .box > img{
+    margin-bottom: 20px;
+}
+.etcBox > .btn{
+    display: inline-block;
+    width: 164px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #999999;
+    border: 1px solid #dddddd;
+}
