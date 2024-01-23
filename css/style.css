@@ -231,3 +231,15 @@ form > .txt{
 .info > ul > li > img{
     margin-bottom: 10px;
 }
+.info > ul > li > span::after{
+    content: '';
+    position: absolute;
+    left: -46px;
+    top: 50px;
+    width: 12px;
+    height: 22px;
+    background: url(../img/arrIcon.png);
+}
+.info > ul > li:first-child > span::after{
+    display: none;
+}
